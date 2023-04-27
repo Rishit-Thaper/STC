@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=DynaPuff&family=Josefin+Sans&family=Nunito&family=Nunito+Sans&family=Poppins&family=Prompt&family=Roboto&family=Roboto+Mono&family=Rubik+Dirt&display=swap');
+body{
+    background-color: whitesmoke;
+    font-family: Poppins;
+}
+h1{
+    font-family: Poppins;
+    color: rgb(23, 70, 202);
+    padding: 2rem 2rem 0rem 2rem;
+    font-size: 3rem;
+}
+ul{
+
+    padding: 1rem 1rem 1rem 2rem;
+    list-style: circle;
+}
+li{
+    line-height: 35px;
+    font-size: 1.5rem;
+}
+.courseImage{
+    display: flex;
+    flex-direction: column;
+}
+.imgFlex{
+    display: flex;
+    margin: 2rem;
+    justify-content: center;
+}
+.courseImage img{
+    width: 30%;
+    padding: 1.5rem;
+}
+a{
+    padding: 2rem 2rem 2rem 4rem;
+    text-align: center;
+}
+button{
+    padding: .5rem 1rem 0.5rem 1rem;
+    text-align: center;
+    border: none;
+    border-radius: 15px;
+    font-size: 1.1rem;
+    color: aliceblue;
+    background-color: rgb(31, 54, 204);
+    cursor: pointer;
+}
+@media screen and (max-width:480px) {
+    .imgFlex{
+        flex-direction: column;
+        margin: 0.3rem;
+    }
+    .imgFlex img{
+        padding: 0.5rem;
+        width: 100%;
+    }
+    h1{
+        font-size: 2rem;
+    }
+    li{
+        font-size: 1rem;
+    }
+}
