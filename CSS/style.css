@@ -149,7 +149,6 @@ nav a{
 .pdfSection{
     width: 100%;
     height: 100%;
-    overflow: hidden;
 
 }
 .pdfSection iframe{
@@ -158,7 +157,6 @@ nav a{
     border: none;
     padding: 0;
     display: flex;
-    margin-left: 5rem;
 }
 .stcInfo{
     display: flex;
