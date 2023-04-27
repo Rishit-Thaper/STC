@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=DynaPuff&family=Josefin+Sans&family=Nunito&family=Nunito+Sans&family=Poppins&family=Prompt&family=Roboto&family=Roboto+Mono&family=Rubik+Dirt&display=swap');
+
+.register{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 5rem 0 0 0;
+    font-family: Poppins;
+    padding: 2rem;
+}
+.registerHeads h1{
+    font-size: 5rem;
+}
+.formBody{
+    background-color: white;
+    color: #124559;
+    padding: 2rem 9rem 2rem 2rem;
+    border-top: 1.5px solid #24a1e5;
+    border-left: 1.5px solid #24a1e5;
+    border-bottom: 5px solid #24a1e5;
+    border-right: 1.5px solid #24a1e5;
+    border-radius: 15px;
+}
+.inputField{
+    border-top: 0;
+    border-left: 0;
+    outline: none;
+    border-right: 0;
+    border-bottom: 2px solid #124559;
+    padding: 0.3rem;
+    transition: 0.2s ease-in-out;
+    width: 150%;
+    margin: 0.3rem;
+}
+input:focus{
+    border-bottom: 2px solid #24a1e5;
+}
+.formBody label{
+    font-size: 0.9rem;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input[type = submit]{
+    text-align: center;
+    width: 100%;
+    border-radius: 15px;
+    padding: 0.8rem;
+    color: white;
+    font-family: Poppins;
+    font-size: 1rem;
+    background-color: #124559;
+    border: none;
+    cursor: pointer;
+}
+@media screen and (max-width:480px) {
+    .register{
+        flex-direction: column;
+    }
+    .registerHeads h1{
+        text-align: center;
+        font-size: 3rem;
+    }
+    .registerHeads h2{
+        text-align: center;
+
+        font-size: 1.5rem;
+    }
+}
