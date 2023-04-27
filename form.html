@@ -8,33 +8,37 @@
     <link rel="stylesheet" href="CSS/form.css">
 </head>
 <body>
-    <div class="register">
-        <div class="registerHeads">
-            <h1>Register Now!!!</h1>
-            <h2>Boost Your Tech Skills and Beat the Heat this Summer!</h2>
-        </div>
-        <div class="formBody">
-            <form action="https://script.google.com/macros/s/AKfycbx6kBRcb1DfCqzzqg2pMuVU9LKPoqAVAyN2m7EF5VjltL8fklR9lzot5BuPMKfWkcWe/exec" onsubmit="submitForm(event)" method="post" enctype="multipart/form-data">
-                <label for="fname">First Name</label><br>
-                <input class="inputField" type="text" required name="fname"><br>
-                <label for="lname">Last Name</label><br>
-                <input class="inputField" type="text" required name="lname"><br>
-                <label for="roll">Roll No.</label><br>
-                <input class="inputField" type="number" required name="roll"><br>
-                <label for="email">Email</label><br>
-                <input class="inputField" type="email" required name="email"><br>
-                <label for="phone">Phone</label><br>
-                <input class="inputField" type="tel" required name="phone"><br>
-                <label for="institute">Institute Name</label><br>
-                <input class="inputField" type="text" required name="institute"><br>
-                <label for="department">Department</label><br>
-                <input class="inputField" type="text" required name="department"><br>
-                <label for="year">Year</label><br>
-                <input class="inputField" type="number" required name="year"><br>
-                <label for="remarks">Remarks</label><br>
-                <input class="inputField" type="text" required name="remarks"><br>
-                <input class="inputField" type="submit" value="Submit">
-            </form>
+    <div class="main-registerBody">
+        <div class="register">
+            <div class="registerHeads">
+                <h1>Register Now!!!</h1>
+                <h2>Boost Your Tech Skills and Beat the Heat this Summer!</h2>
+                <p style="color: red">* required fields</p>
+                <p>Enter your Transaction ID for payment proof</p>
+            </div>
+            <div class="formBody">
+                <form action="https://script.google.com/macros/s/AKfycbx6kBRcb1DfCqzzqg2pMuVU9LKPoqAVAyN2m7EF5VjltL8fklR9lzot5BuPMKfWkcWe/exec" onsubmit="submitForm(event)" method="post" enctype="multipart/form-data">
+                    <label for="fname">First Name: *</label><br>
+                    <input class="inputField" type="text" required name="fname"><br>
+                    <label for="lname">Last Name: *</label><br>
+                    <input class="inputField" type="text" required name="lname"><br>
+                    <label for="roll">Roll No.:*</label><br>
+                    <input class="inputField" type="number" required name="roll"><br>
+                    <label for="email">Email:*</label><br>
+                    <input class="inputField" type="email" required name="email"><br>
+                    <label for="phone">Phone:*</label><br>
+                    <input class="inputField" type="tel" required name="phone"><br>
+                    <label for="institute">Institute Name:*</label><br>
+                    <input class="inputField" type="text" required name="institute"><br>
+                    <label for="department">Department:*</label><br>
+                    <input class="inputField" type="text" required name="department"><br>
+                    <label for="year">Year:*</label><br>
+                    <input class="inputField" type="number" required name="year"><br>
+                    <label for="remarks">Transaction ID:*</label><br>
+                    <input class="inputField" type="text" required name="remarks"><br>
+                    <input class="inputField" type="submit" value="Submit">
+                </form>
+            </div>
         </div>
     </div>
     

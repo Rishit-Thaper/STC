@@ -1,10 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Anton&family=DynaPuff&family=Josefin+Sans&family=Nunito&family=Nunito+Sans&family=Poppins&family=Prompt&family=Roboto&family=Roboto+Mono&family=Rubik+Dirt&display=swap');
-
+.main-registerBody{
+    background-color: #24a1e579;
+}
 .register{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin: 5rem 0 0 0;
+    padding: 5rem 0 0 0;
     font-family: Poppins;
     padding: 2rem;
 }

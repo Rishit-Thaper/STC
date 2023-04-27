@@ -84,8 +84,9 @@ function submitForm(event) {
     if (xhr.readyState === 4 && xhr.status === 200) {
       // Handle the successful response, if needed
       console.log(xhr.responseText);
-      alert("response shared");
     }
+    alert("response shared");
+    form.reset();
   };
   
   xhr.send(formData);
