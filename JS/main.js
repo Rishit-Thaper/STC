@@ -1,64 +1,64 @@
 let button = document.getElementById("viewPdf");
 const summerTrainingFAQs = [
   {
-    question: "Q1. What is a summer training course?",
-    answer: "A short-term program offering practical training during the summer break."
+    question: "Q. What is a summer training course?",
+    answer: "Ans. A short-term program offering practical training during the summer break."
   },
   {
-    question: "Q2. Who can participate in a summer training course?",
-    answer: "Students from class 3 to 12 interested in gaining knowledge and skills."
+    question: "Q. Who can participate in a summer training course?",
+    answer: "Ans. Students from class 3 to 12 interested in gaining knowledge and skills."
   },
   {
-    question: "Q3. What are the benefits of attending a summer training course? (relevant to school)",
-    answer: "Gaining skills, networking, enhancing your resume, and advancing your career."
+    question: "Q. What are the benefits of attending a summer training course? (relevant to school)",
+    answer: "Ans. Gaining skills, networking, enhancing your resume, and advancing your career."
   },
   {
-    question: "Q4. What types of summer training courses are available?",
-    answer: "Various types, ranging from game development to app development and more."
+    question: "Q. What types of summer training courses are available?",
+    answer: "Ans. Various types, ranging from game development to app development and more."
   },
   {
-    question: "Q5. How long do summer training courses typically last?",
-    answer: "Summer training courses typically last for 7 days."
+    question: "Q. How long do summer training courses typically last?",
+    answer: "Ans. Summer training courses typically last for 7 days."
   },
   {
-    question: "Q6. How do I apply for a summer training camp?",
-    answer: "You can apply by filling out the form provided by your school."
+    question: "Q. How do I apply for a summer training camp?",
+    answer: "Ans. You can apply by filling out the form provided by your school."
   },
   {
-    question: "Q7. Will I receive a certificate or any form of recognition for completing a summer training course?",
-    answer: "Yes, you will typically receive a certificate or recognition for completing a course."
+    question: "Q. Will I receive a certificate or any form of recognition for completing a summer training course?",
+    answer: "Ans. Yes, you will typically receive a certificate or recognition for completing a course."
   },
   {
-    question: "Q8. What should I expect to learn in a summer training course?",
-    answer: "You can expect to learn practical knowledge and skills relevant to the course subject."
+    question: "Q. What should I expect to learn in a summer training course?",
+    answer: "Ans. You can expect to learn practical knowledge and skills relevant to the course subject."
   },
   {
-    question: "Q9. Will I have access to any resources or support during the course?",
-    answer: "Yes, you will have access to all resources and receive continuous guidance."
+    question: "Q. Will I have access to any resources or support during the course?",
+    answer: "Ans. Yes, you will have access to all resources and receive continuous guidance."
   },
   {
-    question: "Q10. Can I take a summer training course online?",
-    answer: "Currently, summer training courses are not available online and are conducted in a classroom environment."
+    question: "Q. Can I take a summer training course online?",
+    answer: "Ans. Currently, summer training courses are not available online and are conducted in a classroom environment."
   },
   {
-    question: "Q11. How will the course be assessed?",
-    answer: "Assessment methods can include exams, projects, and presentations."
+    question: "Q. How will the course be assessed?",
+    answer: "Ans. Assessment methods can include exams, projects, and presentations."
   },
   {
-    question: "Q12. What happens if I miss a class or fall behind in the course?",
-    answer: "You should contact the instructor or program administrator to discuss options for catching up."
+    question: "Q. What happens if I miss a class or fall behind in the course?",
+    answer: "Ans. You should contact the instructor or program administrator to discuss options for catching up."
   },
   {
-    question: "Q13. Can I get a refund if I need to withdraw from the course?",
-    answer: "No, refunds are typically not provided for summer training courses."
+    question: "Q. Can I get a refund if I need to withdraw from the course?",
+    answer: "Ans. No, refunds are typically not provided for summer training courses."
   },
   {
-    question: "Q14. What should I do after completing a summer training course?",
-    answer: "You can consider joining an in-depth training program either online or in a classroom setting."
+    question: "Q. What should I do after completing a summer training course?",
+    answer: "Ans. You can consider joining an in-depth training program either online or in a classroom setting."
   },
   {
-    question: "Q15. How can I give feedback or provide suggestions for improving the course?",
-    answer: "You can provide feedback and suggestions through course evaluations or by contacting the instructor or program administrator."
+    question: "Q. How can I give feedback or provide suggestions for improving the course?",
+    answer: "Ans. You can provide feedback and suggestions through course evaluations or by contacting the instructor or program administrator."
   }
 ];
 
@@ -103,10 +103,6 @@ for (const faq of summerTrainingFAQs) {
   answerElement.className = "faq-answer";
   answerElement.textContent = faq.answer;
 
-  // Add event listener to toggle answer visibility
-  questionElement.addEventListener("click", function() {
-    answerElement.classList.toggle("show-answer");
-  });
 
   faqContainer.appendChild(questionElement);
   faqContainer.appendChild(answerElement);
