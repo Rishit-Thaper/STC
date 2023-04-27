@@ -9,7 +9,7 @@ const summerTrainingFAQs = [
     answer: "Ans. Students from class 3 to 12 interested in gaining knowledge and skills."
   },
   {
-    question: "Q. What are the benefits of attending a summer training course? (relevant to school)",
+    question: "Q. What are the benefits of attending a summer training course?",
     answer: "Ans. Gaining skills, networking, enhancing your resume, and advancing your career."
   },
   {
